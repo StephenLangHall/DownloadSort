@@ -1,0 +1,8 @@
+[Unit]
+Description=Sort Download Files
+
+[Service]
+ExecStart=/usr/bin/DownloadSort.sh
+
+[Install]
+WantedBy=multi-user.target
